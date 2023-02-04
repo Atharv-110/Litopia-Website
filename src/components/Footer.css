@@ -1,0 +1,85 @@
+:root{
+    --white-color: #fff;
+    --grey-color: rgb(128, 128, 128);
+    --primary-color-1:#A0E4FF;
+    --primary-color-2:#E4CCEF;
+    --primary-color-3:#8788D1;
+    --primary-color-4:#DDD1C2;
+    --primary-dark-color : #050B23;
+    --normal-font:1.2rem;
+    --large-font: 2rem;
+    --medium-font: 1.5rem;
+    --z-index-max: 999;
+    --largest-font:2.5rem;
+
+}
+
+@keyframes footer-animation{
+    0%{
+        border-image-source: linear-gradient(to right, var(--primary-color-2), var(--primary-color-3), var(--primary-color-3), var(--primary-color-4),var(--primary-color-1), var(--primary-color-1));
+    }
+    50%{
+        border-image-source: linear-gradient(to right, var(--primary-color-4), var(--primary-color-4), var(--primary-color-2), var(--primary-color-2),var(--primary-color-3), var(--primary-color-1));
+    }
+    100%{
+        border-image-source: linear-gradient(to right, var(--primary-color-1), var(--primary-color-2), var(--primary-color-3), var(--primary-color-3), var(--primary-color-4),var(--primary-color-4));
+    }
+}
+
+.footer{
+    height: 150px;
+    min-height: 150px;
+    border-top: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    animation: footer-animation 4s ease-in-out infinite alternate;
+    position: relative;
+}
+
+.footer-layer{
+    backdrop-filter: blur(5px);
+    position: absolute;
+    width: 100%;
+    top: -1px;
+    height: calc(100% + 10px);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.footer-layer h3{
+    text-align: center;
+}
+
+.heart{
+    color: var(--primary-color-1);
+}
+
+.credits{
+    font-size: 1.3rem;
+    color: var(--grey-color);
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+@media screen and (max-width: 700px) {
+    .footer{
+        height: 170px;
+    }
+    .footer-layer{
+        top: -2px;
+    }
+    .footer-layer h3{
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    .credits{
+        font-size: 1.1rem;
+    }
+}

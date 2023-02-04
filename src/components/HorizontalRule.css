@@ -1,0 +1,12 @@
+:root{
+    --white-color: #fff;
+}
+.hr{
+    margin-top: 3rem;
+    height: .1px;
+    width: 100%;
+    /* filter: blur(1px); */
+    background-color: white
+    ;
+    box-shadow: rgba(255, 255, 255, 0.784) 0px 2px 4px 0px, rgba(255, 255, 255, 0.884) 0px 2px 16px 0px;
+}

@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+:root{
+  --white-color: #fff;
+  --primary-dark-color : #050B23;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--primary-dark-color);
+  overflow-x: hidden;
+  color: var(--white-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ::-webkit-scrollbar{
+  width: 0;
+} */
+
+a{
+  text-decoration: none;
+  color: var(--white-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li{
+  list-style: none;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #050B23;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-thumb {
+  background: #8788D1;
+  height: 75px;
+  border-radius: 0.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb:hover {
+  background: #DDD1C2;
 }

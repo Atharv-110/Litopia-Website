@@ -1,0 +1,79 @@
+:root{
+    --white-color: #fff;
+    --grey-color: rgb(128, 128, 128);
+    --primary-color-1:#A0E4FF;
+    --primary-color-2:#E4CCEF;
+    --primary-color-3:#8788D1;
+    --primary-color-4:#DDD1C2;
+    --primary-dark-color : #050B23;
+    --normal-font: 1.2rem;
+    --medium-font: 1.5rem;
+    --padding:5% 10%;
+}
+
+.card{
+    max-width: 250px;
+    text-align: center;
+    line-height:1.5;
+    margin: 20px;
+}
+
+.card-img{
+    max-width: 250px;
+    max-height: 250px;
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.card-img img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: .5s ease;
+    border-radius: 20px;
+
+}
+
+.card-initial{
+    position: absolute;
+    top: 0;
+    font-weight: bolder;
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 10px black;
+}
+
+.name{
+    font-size: var(--normal-font)
+}
+.post{
+    color: var(--grey-color);
+    font-size: var(--normal-font);
+    padding: 4px 0;
+}
+
+.card-link{
+    font-size: var(--medium-font);
+}
+
+.card-link a{
+    transition: .3s ease;
+    padding: 0 10px;
+}
+
+.card-link a:hover{
+    text-shadow:
+    0 0 30px var(--primary-color-2);
+}
+
+.card:hover >.card-img .card-initial{
+opacity: 0;
+}
+.card:hover >.card-img img{
+filter: grayscale(0);
+}

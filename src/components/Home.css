@@ -1,0 +1,100 @@
+:root{
+    --white-color: #fff;
+    --primary-color-1:#A0E4FF;
+    --primary-color-2:#E4CCEF;
+    --primary-color-3:#8788D1;
+    --primary-color-4:#DDD1C2;
+    --primary-dark-color : #050B23;
+    --normal-font: 1.2rem;
+    --padding:5% 10%;
+}
+
+
+.home-div{
+    background-image: url('../images/hero_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    /* position: relative; */
+    text-transform: uppercase;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.home-container{
+    width: 100%;
+    margin-top: 60px;
+    /* position: absolute; */
+    /* bottom: 5vh; */
+    /* bottom: 0; */
+}
+
+.home-container h2 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.intro{
+    max-width: 700px;
+}
+
+/* .home-container h3{
+    font-weight: normal;
+} */
+
+.img-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    flex-flow: wrap;
+}
+
+.img-container div {
+    width: 170px;
+    /* height: 50px; */
+    background: var(--white-color);
+    padding: 4px;
+    border-radius: 4px;
+    /* margin: 0; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.img-container img{
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .home-div{
+        height: 90vh;
+        padding: 80px 15px 0 ;
+        background-position: 50% 75px;
+        /* padding-top: 80px; */
+    }
+
+    .home-container{
+        margin-top: 0px;
+    }
+
+    .intro{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .home-container h2 {
+        font-size: 1rem;
+        margin-top: 5rem;
+    }
+
+    .img-container div {
+        width: 150px;
+    }
+    
+}

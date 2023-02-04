@@ -1,0 +1,107 @@
+:root{
+    --white-color: #fff;
+    --primary-color-1:#A0E4FF;
+    --primary-color-2:#E4CCEF;
+    --primary-color-3:#8788D1;
+    --primary-color-4:#DDD1C2;
+    --primary-dark-color : #050B23;
+    --normal-font: 1.2rem;
+    --medium-font: 1.5rem;
+    --large-font: 2rem;
+    --padding:5%;
+}
+
+.team{
+    padding: var(--padding);
+}
+
+
+.team-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-heading .heading{
+    text-align: left;
+    margin: 0;
+}
+
+.team .heading-text{
+    font-size: var(--medium-font);
+}
+
+.team .heading-main{
+    font-size: var(--large-font);
+}
+
+.logo-img{
+    width: 180px;
+    margin-right: 30px;
+}
+
+/* .faculty{
+    display: flex;
+    padding: var(--padding);
+    padding-bottom: 0;
+}
+
+.faculty-info{
+    width: 60%;
+    font-size: var(--normal-font);
+}
+.faculty-card{
+    width: 40%;
+}
+
+.faculty .heading{
+    text-align:left;
+    margin: 0;
+    margin-bottom: 20px;
+} */
+
+.members{
+   margin-top: 5%;
+}
+
+.members-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 960px) {
+    :root{
+        --padding: 10% 5%;
+        --normal-font : 1rem;
+    }
+    .team{
+        margin-top: 80px;
+    }
+    .logo-img{
+        width: 100px;
+        margin-right: 20px;
+    }
+    /* .faculty{
+        flex-direction: column-reverse;
+    }
+    .faculty-info, .faculty-card{
+        width: 100%;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .faculty .heading{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .faculty-card{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    } */
+}

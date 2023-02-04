@@ -1,0 +1,38 @@
+:root{
+    --white-color: #fff;
+    --primary-color-1:#A0E4FF;
+    --primary-color-2:#E4CCEF;
+    --primary-color-3:#8788D1;
+    --primary-color-4:#DDD1C2;
+    --primary-dark-color : #050B23;
+}
+
+.heading{
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width:fit-content;
+}
+
+.heading-text{
+    font-size: 2rem;
+}
+
+.heading-main{
+    letter-spacing: 7px;
+    font-size: 3rem;
+    background:linear-gradient(to right, var(--primary-color-1), var(--primary-color-2),var(--primary-color-4),var(--primary-color-3));
+    background-clip: text;
+    color: transparent;
+}
+
+@media screen and (max-width: 960px){
+    .heading-text{
+        font-size: 1.2rem;
+    }
+    .heading-main{
+        letter-spacing: 4px;
+        font-size: 2rem;
+    }
+}
