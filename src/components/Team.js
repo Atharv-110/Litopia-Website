@@ -4,7 +4,7 @@ import Heading from "./Heading";
 import HorizontalRule from "./HorizontalRule";
 import "./Team.css";
 import logo from "../images/logo.png";
-import shipraMam from "../images/teamImages/Shipra_Ahuja.svg";
+import shipraMam from "../images/teamImages/Shipra_Ahuja.webp";
 import { CouncileTeamData } from "./CouncileTeamData";
 
 export default function Team() {
