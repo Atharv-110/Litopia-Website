@@ -48,14 +48,14 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     /* flex-direction: row; */
     flex-flow: wrap;
 }
 
-.img-container div {
+.presented-logo {
     width: 170px;
-    /* height: 50px; */
+    /* height: 5px; */
     background: var(--white-color);
     padding: 4px;
     border-radius: 4px;
@@ -65,7 +65,11 @@
     display: flex;
 }
 
+.year-logo {
+    background: none;
+    width: 100px;
 
+}
 
 .img-container img{
     width: 100%;
@@ -93,8 +97,17 @@
         margin-top: 5rem;
     }
 
-    .img-container div {
-        width: 150px;
+    .img-container {
+        gap: 10px;
+    }
+
+    .presented-logo {
+        /* height: 100%; */
+        width: 120px;
+    }
+    .year-logo {
+        /* height: 100%; */
+        width: 80px;
     }
     
 }
