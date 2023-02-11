@@ -16,7 +16,7 @@ export default function Events() {
           <div className="row">
             <div className="event-card">
               <h2 className="event-title">Donation Drive</h2>
-              <h4>3rd-16th Feb'23 </h4>
+              <h4>3rd-16th Feb'23</h4>
               <h4>Timings: 8:30AM - 5:00PM</h4>
               <p className="event-description">
                 Giving is not just about donating; it is about making a
@@ -36,9 +36,9 @@ export default function Events() {
             </div>
 
             <div className="event-card">
-              <h2 className="event-title">Launch & Author Session</h2>
-              <h4>Coming Soon</h4>
-              <h4>Timings: Coming Soon</h4>
+              <h2 className="event-title">Book Launch</h2>
+              <h4>15th-16th Feb'23</h4>
+              <h4>Timings: 2:00PM & 11:00AM</h4>
               <p className="event-description">
                 Sessions by renowned authors of our university will be organized
                 making the event even more exciting and memorable by launching
@@ -53,8 +53,8 @@ export default function Events() {
 
             <div className="event-card">
               <h2 className="event-title">Kavi Sammelan</h2>
-              <h4>Coming Soon</h4>
-              <h4>Timings: Coming Soon</h4>
+              <h4>15th Feb'23</h4>
+              <h4>Timings: 3:00PM</h4>
               <p className="event-description">
                 A charismatic evening celebrating the gathering of poets around
                 the city, where they will share their amazing poetry pieces and
@@ -90,8 +90,8 @@ export default function Events() {
 
             <div className="event-card">
               <h2 className="event-title">Treasure Hunt</h2>
-              <h4>Coming Soon</h4>
-              <h4>Timings: Coming Soon</h4>
+              <h4>15th Feb'23</h4>
+              <h4>Timings: 12:20PM</h4>
               <p className="event-description">
                 Have you always looked for clues here and there? Or ever tried
                 to solve a mystery? Treasure hunt is all about hunting down the
@@ -99,7 +99,11 @@ export default function Events() {
                 winning team receiving gifts, fest perks and what not!
               </p>
               <button className="event-btn">
-                <a target="_blank" rel="noreferrer" href="https://forms.gle/tUxb9iE2RHas3owa7">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://forms.gle/tUxb9iE2RHas3owa7"
+                >
                   Register
                 </a>
               </button>
@@ -107,8 +111,8 @@ export default function Events() {
 
             <div className="event-card">
               <h2 className="event-title">Lit-Con</h2>
-              <h4>Coming Soon</h4>
-              <h4>Timings: Coming Soon</h4>
+              <h4>16th Feb'23</h4>
+              <h4>Timings: 1:30PM</h4>
               <p className="event-description">
                 Ever dreamed about what it will be like to be in the place of
                 your favourite characters? Well, it's not a dream anymore!
@@ -128,15 +132,19 @@ export default function Events() {
 
             <div className="event-card">
               <h2 className="event-title">Anvaratt Drama</h2>
-              <h4>Coming Soon</h4>
-              <h4>Timings: Coming Soon</h4>
+              <h4>16th Feb'23</h4>
+              <h4>Timings: 12:00PM</h4>
               <p className="event-description">
                 A unique and enthralling drama act will be performed by none
                 other than Anvratt Theater Group based on iconic plays to
                 entertain the crowd!
               </p>
               <button className="event-btn">
-                <a target="_blank" rel="noreferrer" href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://forms.gle/LXKrD2VJA9E6afzV7"
+                >
                   Register
                 </a>
               </button>
@@ -144,8 +152,8 @@ export default function Events() {
 
             <div className="event-card">
               <h2 className="event-title">Open Mic</h2>
-              <h4>Coming soon</h4>
-              <h4>Timings: Coming soon</h4>
+              <h4>16th Feb'23</h4>
+              <h4>Timings: 2:30PM</h4>
               <p className="event-description">
                 A fun platform for all the words that were left unspoken, open
                 mic provides the opportunity to bring out your hidden talents
