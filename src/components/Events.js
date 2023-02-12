@@ -131,7 +131,7 @@ export default function Events() {
             </div>
 
             <div className="event-card">
-              <h2 className="event-title">Anvaratt Drama</h2>
+              <h2 className="event-title">Anavaratt Drama</h2>
               <h4>16th Feb'23</h4>
               <h4>Timings: 12:00PM</h4>
               <p className="event-description">
